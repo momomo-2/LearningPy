@@ -1,0 +1,12 @@
+2026-03-03 14:40:36,205 - DEBUG - Starting new HTTPS connection (1): api.bilibili.com:443
+2026-03-03 14:40:36,970 - DEBUG - https://api.bilibili.com:443 "GET /x/msgfeed/reply HTTP/1.1" 200 None
+2026-03-03 14:40:37,003 - DEBUG - https://api.bilibili.com:443 "GET /x/space/acc/info?mid=0 HTTP/1.1" 200 None
+2026-03-03 14:40:37,004 - ERROR - 获取用户信息失败: Expecting value: line 1 column 1 (char 0)
+2026-03-03 14:41:08,251 - DEBUG - Resetting dropped connection: api.bilibili.com
+2026-03-03 14:41:08,253 - INFO - 开始监控用户UID 313738890 的新回复...
+2026-03-03 14:41:09,037 - DEBUG - https://api.bilibili.com:443 "GET /x/msgfeed/reply HTTP/1.1" 200 None
+2026-03-03 14:41:17,840 - INFO - 监控已停止
+2026-03-03 14:41:22,413 - DEBUG - Resetting dropped connection: api.bilibili.com
+2026-03-03 14:41:22,415 - INFO - 开始监控用户UID 313738890 的新回复...
+2026-03-03 14:41:23,140 - DEBUG - https://api.bilibili.com:443 "GET /x/msgfeed/reply HTTP/1.1" 200 None
+2026-03-03 14:41:25,253 - INFO - 监控已停止
