@@ -1,10 +1,10 @@
-from socket import *
+import socket 
 
 serverName = 'localhost'
 serverPort = 12000
 
 # 创建UDP套接字
-serverSocket = socket(AF_INET, SOCK_DGRAM)
+serverSocket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
 # 绑定套接字到地址和端口
 serverSocket.bind((serverName, serverPort))

@@ -1,10 +1,10 @@
-from socket import *
+import socket
 
 serverName = 'localhost'
 serverPort = 12000
 
 # 创建UDP套接字
-clientSocket = socket(AF_INET, SOCK_DGRAM)
+clientSocket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
 # 获取用户输入
 message = input('Input lowercase sentence: ')
